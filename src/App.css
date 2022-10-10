@@ -1,0 +1,42 @@
+#root {
+  background: #336C99;
+  color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bg-claro {
+  background: #4386ba;
+}
+
+#ciudad {
+  font-size: 4rem;
+  font-weight: lighter;
+  line-height: 100%;
+}
+
+#temp {
+  font-size: 4rem;
+  font-weight: lighter;
+  line-height: 100%;
+}
+#minMax {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+@media (max-width: 769px) {
+
+  #ciudad {
+    font-size: 2rem;
+  }
+  
+  #temp {
+    font-size: 3rem;
+  }
+
+  #minMax {
+    font-size: 1rem;
+  }
+}
